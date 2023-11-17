@@ -217,3 +217,30 @@
 2023-11-17 16:29:46.172  INFO 17100 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-11-17 16:29:46.174  INFO 17100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-11-17 16:29:46.186  INFO 17100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-17 16:48:57.818  INFO 16512 --- [main] com.example.test.TestApplicationTests    : Starting TestApplicationTests using Java 17.0.8 on DESKTOP-98SBHHG with PID 16512 (started by payam in C:\Users\payam\Projects\test\test)
+2023-11-17 16:48:57.821  INFO 16512 --- [main] com.example.test.TestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-11-17 16:48:58.459  INFO 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 16:48:58.530  INFO 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2023-11-17 16:48:59.155  INFO 16512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-17 16:48:59.790  INFO 16512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-17 16:48:59.870  INFO 16512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-17 16:49:00.025  INFO 16512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-17 16:49:00.340  INFO 16512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-17 16:49:00.578  INFO 16512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-11-17 16:49:01.394  INFO 16512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-17 16:49:01.407  INFO 16512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 16:49:02.042  INFO 16512 --- [main] com.example.test.TestApplicationTests    : Started TestApplicationTests in 4.752 seconds (JVM running for 6.278)
+2023-11-17 16:49:02.445  INFO 16512 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 16:49:02.448  INFO 16512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-17 16:49:02.461  INFO 16512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-17 16:49:16.913  INFO 14224 --- [main] com.example.test.TestApplicationTests    : Starting TestApplicationTests using Java 17.0.8 on DESKTOP-98SBHHG with PID 14224 (started by payam in C:\Users\payam\Projects\test\test)
+2023-11-17 16:49:16.916  INFO 14224 --- [main] com.example.test.TestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-11-17 16:49:17.854  INFO 14224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 16:49:17.942  INFO 14224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-11-17 16:49:18.763  INFO 14224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-17 16:49:19.246  INFO 14224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-17 16:49:19.322  INFO 14224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-17 16:49:19.428  INFO 14224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-17 16:49:19.747  INFO 14224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-17 16:49:19.966  INFO 14224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-11-17 16:49:20.743  INFO 14224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]

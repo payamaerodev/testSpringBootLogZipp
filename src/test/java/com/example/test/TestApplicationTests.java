@@ -17,4 +17,8 @@ protected ProductService productService;
 	void contextLoads() throws IOException, ZipException {
 		productService.	saveProduct(new Product("sdfsadfasdfa"));
 	}
+	@Test
+	void getProducts() throws IOException, ZipException {
+		productService.getProducts();
+	}
 }
